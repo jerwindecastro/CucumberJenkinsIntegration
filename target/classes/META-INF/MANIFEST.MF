@@ -1,6 +1,4 @@
 Manifest-Version: 1.0
-Built-By: Nitro
-Build-Jdk: 23
+Build-Jdk-Spec: 23
 Created-By: Maven Integration for Eclipse
-Main-Class: TestRunner.Runner
 
