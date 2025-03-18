@@ -30,4 +30,21 @@
 		</dependency>
 
 	</dependencies>
+	
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.1.0</version> <!-- or the version you're using -->
+            <configuration>
+                <archive>
+                    <manifestEntries>
+                        <Main-Class>TestRunner.Runner</Main-Class>
+                    </manifestEntries>
+                </archive>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 </project>
